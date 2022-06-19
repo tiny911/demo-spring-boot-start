@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "org.com.demo",
+      "type": "org.com.demo.DemoProperties",
+      "sourceType": "org.com.demo.DemoProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
