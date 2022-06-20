@@ -1,4 +1,0 @@
-META-INF/spring-configuration-metadata.json
-org/com/demo/service/DemoService.class
-org/com/demo/DemoProperties.class
-org/com/demo/DemoAutoConfigure.class

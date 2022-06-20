@@ -13,19 +13,21 @@
 		<groupId>org.springframework.boot</groupId>
 		<version>2.6.3</version>
 	</parent>
-	<dependencies>
+	<dependencies><!--
 		<dependency>
 			<groupId>org.example</groupId>
-			<artifactId>demo-spring-boot-starter</artifactId>
+			<artifactId>demo-spring-boot-autoconfigure</artifactId>
 			<version>1.0-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-autoconfigure</artifactId>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.example</groupId>
+			<artifactId>demo-spring-boot-autoconfigure</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 

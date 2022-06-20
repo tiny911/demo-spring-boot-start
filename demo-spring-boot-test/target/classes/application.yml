@@ -1,8 +1,0 @@
-server:
-  port: 7888
-org:
-  com:
-    demo:
-      enabled: true
-      name: sprog
-      context: 你好世界
