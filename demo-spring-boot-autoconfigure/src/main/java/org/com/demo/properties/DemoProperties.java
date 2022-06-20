@@ -1,4 +1,4 @@
-package org.com.demo;
+package org.com.demo.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
@@ -16,5 +16,13 @@ public class DemoProperties {
 
 	public String getContext() {
 		return context;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setContext(String context) {
+		this.context = context;
 	}
 }

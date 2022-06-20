@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 @RestController
-@RequestMapping
+@RequestMapping("/demo")
 public class TestController {
 
-	@Resource(name="demo")
+	@Resource
 	private DemoService demoService;
 
 	@GetMapping(value = "/test")

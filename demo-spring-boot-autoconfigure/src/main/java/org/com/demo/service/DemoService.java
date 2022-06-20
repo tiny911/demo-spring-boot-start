@@ -1,8 +1,7 @@
 package org.com.demo.service;
 
-import org.com.demo.DemoProperties;
+import org.com.demo.properties.DemoProperties;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 public class DemoService {
 	@Autowired
